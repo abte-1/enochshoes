@@ -1,0 +1,2206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enoch's shoe shop</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background: orange;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+        }
+        .logo {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 24px;
+        }
+        .logo img {
+            height: 40px;
+            margin-right: 10px;
+            border-radius: 20px;
+        }
+        .container {
+            width: 80%;
+            margin: 20px auto;
+            padding: 20px;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .section {
+            margin-bottom: 20px;
+        }
+        .section h2 {
+            border-bottom: 2px solid orange;
+            padding-bottom: 5px;
+        }
+        footer {
+            text-align: center;
+            padding: 10px 0;
+            background: orange;
+            color: white;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="MOMMIES (1).jpeg" alt="Logo">
+            <span>AbTe</span>
+        </div>
+        <h1>Mommys Boy</h1>
+        <p>Get Amazing wallpapers and download with ease</p>
+    </header>
+
+    <div class="container">
+        <section class="section" id="about">
+            <h2>About Me</h2>
+            <p>Hello! I'm a passionate web developer. I'm and I enjoy creating websites and exploring new technologies.</p>
+        </section>
+
+        <section class="section" id="portfolio">
+            <h2>Portfolio</h2>
+            <p>Check out my projects and work. </p>
+        </section>
+
+        <section class="section" id="contact">
+            <h2>Contact</h2>
+            <p>You can reach me at:</p>
+            <p>Email: <a href="mailto:enochterkpeh470@gmail.com">abrahamterkpeh419@gmail.com</a></p>
+            <p>Telephone: <a href="tel:0242708238">0242708238</a></p>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy 2024 Abraham Terkpeh. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abraham's Shop</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background: orange;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        .container {
+            width: 80%;
+            margin: 20px auto;
+            padding: 20px; 
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 0px 10px rgb(0, 0, 0);
+        }
+        .product {
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 10px;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+       
+        .product img {
+            max-width: 100%;
+            border-radius: 8px;
+            object-fit: contain;
+            width: 300px;
+        }
+        .product h3 {
+            margin: 10px 0;
+        }
+        .product p {
+            font-size: 18px;
+            color: #555;
+        }
+        .product button {
+            background-color: orange;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            border-radius: 4px;
+        }
+        .product button:hover {
+            background-color: #e07b00;
+        }
+        footer {
+            
+            text-align: center;
+            padding: 10px 0;
+            background: orange;
+            color: white;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        
+        .b
+        {
+            color: white;
+         background-color: orange;
+         padding: 10px;
+         border-color: orange;
+         border-radius: 4px;
+         width: 20px;
+        background-size: 940px;
+        margin-left: 4px;
+        margin-right: 10px;
+        text-decoration: underline;
+        text-decoration-color: orange;
+        }
+
+        .b:hover  
+        {
+            color: white;
+            background-color: #e07b00;
+            text-decoration: underline;
+            text-decoration-color: #e07b00;
+        }
+
+        .bb{font-variant:small-caps}
+
+        .i{
+      font-size: 15px;
+      border-radius: 20px;
+      text-align: left;
+    }
+
+
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Abraham's Shop</h1>
+        <p>Your one-stop site for amazing wallpapers! </p>
+    </header>
+
+
+
+
+
+    <div class="container">
+        <div class="product">
+            <img class="bb" src="Download/wall (1).jpg"  alt="Image to download">
+        
+            <h3>wallpaper 1</h3>
+            <button id="downloadBtn">Download Image</button>
+
+            <img id="imageToDownload" src="Download/wall (1).jpg" alt="Image to download" style="display:none;">
+        
+        </div> 
+    </div>
+
+
+    
+
+
+
+
+    <div class="container">
+         <div class="product">
+            <img class="bb"  src="Download/wall (2).jpg" alt="Image to download">
+       
+           <h3>wallpaper 2</h3>
+           <button onclick="alert('download');" id="downloadBtn">Download Image</button>
+
+           <!-- The image you want to download -->
+           <img id="imageToDownload" src="Download/wall (2).jpg" alt="Image to download" style="display:none;">
+        </div>
+    </div>
+  
+
+
+      <div class="container">
+         <div class="product">
+            <img class="bb" src="Download/wall (3).jpg" alt="Product 1">
+           <h3>wallpaper 3</h3>
+           <button>Download </button>  
+        </div>
+    </div>
+    
+        
+
+    <div class="container">
+      <div class="product">
+         <img class="bb" src="Downloads/wall (4).jpg" alt="Product 1">
+        <h3>wallpaper 4</h3>
+        <button>Download </button>  
+     </div>
+   </div>
+ 
+      
+
+
+   <div class="container">
+    <div class="product">
+       <img class="bb" src="Downloads/wall (5).jpg" alt="Product 1">
+      <h3>wallpaper 5</h3>
+      <button>Download </button>  
+     </div>
+   </div>
+
+
+
+   <div class="container">
+     <div class="product">
+       <img class="bb" src="Downloads/wall (6).jpg" alt="Product 1">
+      <h3>wallpaper 6</h3>
+      <button>Download </button>  
+    </div>
+  </div>
+
+
+  <div class="container">
+    <div class="product">
+       <img class="bb" src="Downloads/wall (7).jpg" alt="Product 1">
+      <h3>wallpaper 7</h3>
+      <button>Download </button>  
+   </div>
+  </div>
+
+
+  
+  <div class="container">
+    <div class="product">
+       <img class="bb" src="Downloads/wall (8).jpg" alt="Product 1">
+      <h3>wallpaper 8</h3>
+      <button>Download </button>  
+   </div>
+  </div>
+
+
+  
+  <div class="container">
+    <div class="product">
+       <img class="bb" src="Downloads/wall (9).jpg" alt="Product 1">
+      <h3>wallpaper 9</h3>
+      <button>Download </button>  
+   </div>
+  </div>
+
+
+
+
+  
+  <div class="container">
+    <div class="product">
+       <img class="bb" src="Downloads/wall (10).jpg" alt="Product 1">
+      <h3>wallpaper 10</h3>
+      <button>Download </button>  
+   </div>
+  </div>
+
+
+
+
+  
+  <div class="container">
+    <div class="product">
+       <img class="bb" src="Downloads/wall (11).jpg" alt="Product 1">
+      <h3>wallpaper 11</h3>
+      <button id="downloadBtn"> Download Image</button>  
+   </div>
+  </div>
+
+
+
+
+  
+  <div class="container">
+    <div class="product">
+       <img class="bb" src="Downloads/wall (12).jpg" alt="Product 1">
+      <h3>wallpaper 12</h3>
+      <button>Download </button>  
+   </div>
+  </div>
+
+
+
+
+  
+  <div class="container">
+    <div class="product">
+       <img class="bb" src="Downloads/wall (13).jpg" alt="Product 1">
+      <h3>wallpaper 13</h3>
+      <button>Download </button>  
+   </div>
+  </div>
+
+
+  <div class="container">
+    <div class="product">
+       <img class="bb" src="Downloads/wall (14).jpg" alt="Product 1">
+      <h3>wallpaper 14</h3>
+      <button>Download </button>  
+   </div>
+  </div>
+
+
+  <div class="container">
+    <div class="product">
+       <img class="bb" src="Downloads/wall (15).jpg" alt="Product 1">
+      <h3>wallpaper 15</h3>
+      <button>Download </button>  
+   </div>
+  </div>
+
+
+
+  <div class="container">
+    <div class="product">
+       <img class="bb" src="Downloads/wall (16).jpg" alt="Product 1">
+      <h3>wallpaper 16</h3>
+      <button>Download </button>  
+   </div>
+  </div>
+
+
+
+  <div class="container">
+    <div class="product">
+       <img class="bb" src="Downloads/wall (17).jpg" alt="Product 1">
+      <h3>wallpaper 17</h3>
+      <button>Download </button>  
+   </div>
+  </div>
+
+
+
+  <div class="container">
+    <div class="product">
+       <img class="bb" src="Downloads/wall (18).jpg" alt="Product 1">
+      <h3>wallpaper 18</h3>
+      <button>Download </button>  
+   </div>
+  </div>
+
+
+
+  <div class="container">
+    <div class="product">
+       <img class="bb" src="Downloads/wall (19).jpg" alt="Product 1">
+      <h3>wallpaper 19</h3>
+      <button>Download </button>  
+   </div>
+  </div>
+
+
+
+  <div class="container">
+    <div class="product">
+       <img class="bb" src="Downloads/wall (20).jpg" alt="Product 1">
+      <h3>wallpaper 20</h3>
+      <button>Download </button>  
+   </div>
+  </div>
+
+
+
+  <div class="container">
+    <div class="product">
+       <img class="bb" src="Downloads/wall (21).jpg" alt="Product 1">
+      <h3>wallpaper 21</h3>
+      <button>Download </button>  
+   </div>
+  </div>
+
+
+
+  <div class="container">
+    <div class="product">
+       <img class="bb" src="Downloads/wall (22).jpg" alt="Product 1">
+      <h3>wallpaper 22</h3>
+      <button>Download </button>  
+   </div>
+  </div>
+
+
+
+  <div class="container">
+    <div class="product">
+       <img class="bb" src="Downloads/wall (23).jpg" alt="Product 1">
+      <h3>wallpaper 23</h3>
+      <button>Download </button>  
+   </div>
+  </div>
+
+
+
+  
+
+
+    <div class="container">
+      <div class="product">
+         <img class="bb" src="Downloads/wall (24).jpg" alt="Product 1">
+        <h3>wallpaper 24</h3>
+        <button>Download </button>  
+     </div>
+    </div>
+
+
+
+    <div class="container">
+      <div class="product">
+         <img class="bb" src="Downloads/wall (25).jpg" alt="Product 1">
+        <h3>wallpaper 25</h3>
+        <button>Download </button>  
+     </div>
+    </div>
+
+
+
+    <div class="container">
+      <div class="product">
+         <img class="bb" src="Downloads/wall (26).jpg" alt="Product 1">
+        <h3>wallpaper 26</h3>
+        <button>Download </button>  
+     </div>
+    </div>
+
+
+
+    <div class="container">
+      <div class="product">
+         <img class="bb" src="Downloads/wall (27).jpg" alt="Product 1">
+        <h3>wallpaper 27</h3>
+        <button>Download </button>  
+     </div>
+    </div>
+
+
+
+    <div class="container">
+      <div class="product">
+         <img class="bb" src="Downloads/wall (28).jpg" alt="Product 1">
+        <h3>wallpaper 28</h3>
+        <button>Download </button>  
+     </div>
+    </div>
+
+
+ 
+    <div class="container">
+      <div class="product">
+         <img class="bb" src="Downloads/wall (29).jpg" alt="Product 1">
+        <h3>wallpaper 29</h3>
+        <button>Download </button>  
+     </div>
+    </div>
+
+
+
+
+    <div class="container">
+      <div class="product">
+         <img class="bb" src="Downloads/wall (30).jpg" alt="Product 1">
+        <h3>wallpaper 30</h3>
+        <button>Download </button>  
+     </div>
+    </div>
+
+
+
+
+    <div class="container">
+      <div class="product">
+         <img class="bb" src="Downloads/wall (31).jpg" alt="Product 1">
+        <h3>wallpaper 31</h3>
+        <button>Download </button>  
+     </div>
+    </div>
+
+
+
+    <div class="container">
+      <div class="product">
+         <img class="bb" src="Downloads/wall (32).jpg" alt="Product 1">
+        <h3>wallpaper 32</h3>
+        <button>Download </button>  
+     </div>
+    </div>
+
+
+
+
+    <div class="container">
+      <div class="product">
+         <img class="bb" src="Downloads/wall (33).jpg" alt="Product 1">
+        <h3>wallpaper 33</h3>
+        <button>Download </button>  
+     </div>
+    </div>
+
+
+
+    <div class="container">
+      <div class="product">
+         <img class="bb" src="Downloads/wall (34).jpg" alt="Product 1">
+        <h3>wallpaper 34</h3>
+        <button>Download </button>  
+     </div>
+    </div>
+
+
+
+    <div class="container">
+      <div class="product">
+         <img class="bb" src="Downloads/wall (35).jpg" alt="Product 1">
+        <h3>wallpaper 35</h3>
+        <button>Download </button>  
+     </div>
+    </div>
+
+
+
+    <div class="container">
+      <div class="product">
+         <img class="bb" src="Downloads/wall (36).jpg" alt="Product 1">
+        <h3>wallpaper 36</h3>
+        <button>Download </button>  
+     </div>
+    </div>
+
+
+    <div class="container">
+      <div class="product">
+         <img class="bb" src="Downloads/wall (36).jpg" alt="Product 1">
+        <h3>wallpaper 36</h3>
+        <button>Download </button>  
+     </div>
+    </div>
+
+
+
+    <div class="container">
+      <div class="product">
+         <img class="bb" src="Downloads/wall (37).jpg" alt="Product 1">
+        <h3>wallpaper 37</h3>
+        <button>Download </button>  
+     </div>
+    </div>
+
+
+
+
+    <div class="container">
+      <div class="product">
+         <img class="bb" src="Downloads/wall (38).jpg" alt="Product 1">
+        <h3>wallpaper 38</h3>
+        <button>Download </button>  
+     </div>
+    </div>
+
+
+
+
+    <div class="container">
+      <div class="product">
+         <img class="bb" src="Downloads/wall (39).jpg" alt="Product 1">
+        <h3>wallpaper 39</h3>
+        <button>Download </button>  
+     </div>
+    </div>
+
+
+
+    <div class="container">
+      <div class="product">
+         <img class="bb" src="Downloads/wall (40).jpg" alt="Product 1">
+        <h3>wallpaper 40</h3>
+        <button>Download </button>  
+     </div>
+    </div>
+
+
+
+
+
+     <div class="container">
+      <div class="product">
+         <img class="bb" src="Downloads/wall (41).jpg" alt="Product 1">
+        <h3>wallpaper 41</h3>
+        <button>Download </button>  
+     </div>
+    </div>
+
+
+
+    <div class="container">
+      <div class="product">
+         <img class="bb" src="Downloads/wall (42).jpg" alt="Product 1">
+        <h3>wallpaper 42</h3>
+        <button>Download </button>  
+     </div>
+    </div>
+
+
+
+
+    <div class="container">
+      <div class="product">
+         <img class="bb" src="Downloads/wall (43).jpg" alt="Product 1">
+        <h3>wallpaper 43</h3>
+        <button>Download </button>  
+     </div>
+    </div>
+
+
+
+
+    <div class="container">
+      <div class="product">
+         <img class="bb" src="Downloads/wall (44).jpg" alt="Product 1">
+        <h3>wallpaper 44</h3>
+        <button>Download </button>  
+     </div>
+    </div>
+
+
+
+
+    
+    <div class="container">
+      <div class="product">
+         <img class="bb" src="Downloads/wall (45).jpg" alt="Product 1">
+        <h3>wallpaper 45</h3>
+        <button>Download </button>  
+     </div>
+    </div>
+
+
+
+
+    <div class="container">
+      <div class="product">
+         <img class="bb" src="Downloads/wall (46).jpg" alt="Product 1">
+        <h3>wallpaper 46</h3>
+        <button>Download </button>  
+     </div>
+    </div>
+
+
+
+
+
+    <div class="container">
+      <div class="product">
+         <img class="bb" src="Downloads/wall (47).jpg" alt="Product 1">
+        <h3>wallpaper 47</h3>
+        <button>Download </button>  
+     </div>
+    </div>
+
+
+    
+    <div class="container">
+      <div class="product">
+         <img class="bb" src="Downloads/wall (48).jpg" alt="Product 1">
+        <h3>wallpaper 48</h3>
+        <button>Download </button>  
+     </div>
+    </div>
+
+
+
+    
+    <div class="container">
+      <div class="product">
+         <img class="bb" src="Downloads/wall (49).jpg" alt="Product 1">
+        <h3>wallpaper 49</h3>
+        <button>Download </button>  
+     </div>
+    </div>
+
+
+
+    
+    <div class="container">
+      <div class="product">
+         <img class="bb" src="Downloads/wall (50).jpg" alt="Product 1">
+        <h3>wallpaper 50</h3>
+        <button>Download </button>  
+     </div>
+    </div>
+
+
+
+
+    
+    <div class="container">
+      <div class="product">
+         <img class="bb" src="Downloads/wall (51).jpg" alt="Product 1">
+        <h3>wallpaper 51</h3>
+        <button>Download </button>  
+     </div>
+    </div>
+
+
+
+
+    
+    <div class="container">
+      <div class="product">
+         <img class="bb" src="Downloads/wall (52).jpg" alt="Product 1">
+        <h3>wallpaper 52</h3>
+        <button>Download </button>  
+     </div>
+    </div>
+
+
+
+    
+    <div class="container">
+      <div class="product">
+         <img class="bb" src="Downloads/wall (53).jpg" alt="Product 1">
+        <h3>wallpaper 53</h3>
+        <button>Download </button>  
+     </div>
+    </div>
+
+
+
+    
+    <div class="container">
+      <div class="product">
+         <img class="bb" src="Downloads/wall (54).jpg" alt="Product 1">
+        <h3>wallpaper 54</h3>
+        <button>Download </button>  
+     </div>
+    </div>
+
+
+
+    
+    <div class="container">
+      <div class="product">
+         <img class="bb" src="Downloads/wall (55).jpg" alt="Product 1">
+        <h3>wallpaper 55</h3>
+        <button>Download </button>  
+     </div>
+    </div>
+
+
+
+    
+    <div class="container">
+      <div class="product">
+         <img class="bb" src="Downloads/wall (56).jpg" alt="Product 1">
+        <h3>wallpaper 56</h3>
+        <button>Download </button>  
+     </div>
+    </div>
+
+
+
+    
+    <div class="container">
+      <div class="product">
+         <img class="bb" src="Downloads/wall (57).jpg" alt="Product 1">
+        <h3>wallpaper 57</h3>
+        <button>Download </button>  
+     </div>
+    </div>
+
+
+
+    
+    <div class="container">
+      <div class="product">
+         <img class="bb" src="Downloads/wall (58).jpg" alt="Product 1">
+        <h3>wallpaper 58</h3>
+        <button>Download </button>  
+     </div>
+    </div>
+
+
+
+    
+    <div class="container">
+      <div class="product">
+         <img class="bb" src="Downloads/wall (59).jpg" alt="Product 1">
+        <h3>wallpaper 59</h3>
+        <button>Download </button>  
+     </div>
+    </div>
+
+
+
+
+    <div class="container">
+      <div class="product">
+         <img class="bb" src="Downloads/wall (60).jpg" alt="Product 1">
+        <h3>wallpaper 60</h3>
+        <button>Download </button>  
+        <button onclick="addToCart('wallpaper 47')">Download</button>
+     </div>
+    </div>
+
+
+
+
+
+
+    <div class="container">
+      <div class="product">
+         <img class="bb" src="Downloads/wall (61).jpg" alt="Product 1">
+        <h3>wallpaper 61</h3>
+        <button>Download </button>  
+     </div>
+    </div>
+
+
+
+
+
+
+
+    <div class="container">
+      <div class="product">
+         <img class="bb" src="Downloads/wall (62).jpg" alt="Product 1">
+        <h3>wallpaper 62</h3>
+        <button>Download </button> 
+     </div>
+    </div>
+
+
+
+
+
+
+    <div class="container">
+      <div class="product">
+         <img class="bb" src="Downloads/wall (63).jpg" alt="Product 1">
+        <h3>wallpaper 63</h3>
+        <button>Download </button>  
+     </div>
+    </div>
+
+
+
+
+
+
+    <div class="container">
+      <div class="product">
+         <img class="bb" src="Download/wall (64).jpg" >
+         <h3>wallpaper 64</h3>
+        <button>Download </button>  
+    
+     </div>
+    </div>
+
+
+
+
+
+    <div class="container">
+      <div class="product">
+         <img class="bb" src="Downloads/wall (65).jpg" alt="Product 1">
+        <h3>wallpaper 65</h3>
+        <button>Download </button>  
+     </div>
+    </div>
+
+
+
+
+
+    <div class="container">
+      <div class="product">
+         <img class="bb" src="Downloads/wall (66).jpg" alt="Product 1">
+        <h3>wallpaper 66</h3>
+        <button>Download </button>  
+     </div>
+    </div>
+
+
+
+
+    <div class="container">
+      <div class="product">
+         <img class="bb" src="Downloads/wall (67).jpg" alt="Product 1">
+        <h3>wallpaper 67</h3>
+        <button>Download </button>  
+   
+     </div>
+    </div>
+
+
+
+
+    <div class="container">
+      <div class="product">
+         <img class="bb" src="Downloads/wall (68).jpg" alt="Product 1">
+        <h3>wallpaper 68</h3>
+        <button>Download </button>  
+     </div>
+    </div>
+
+
+
+    <div class="container">
+      <div class="product">
+         <img class="bb" src="Downloads/wall (69).jpg">
+        <h3>wallpaper 69</h3>
+        <button>Download </button>  
+     </div>
+    </div>
+
+
+
+
+    <div class="container">
+      <div class="product">
+         <img class="bb" src="Download/wall (70).jpg">
+        <h3>wallpaper 70</h3>
+        <button>Download </button>  
+     </div>
+    </div>
+
+
+
+
+    <div class="container">
+      <div class="product">
+         <img class="bb" src="Download/wall (71).jpg">
+        <h3>wallpaper 71</h3>
+        <button>Download </button>  
+     </div>
+    </div>
+
+
+
+    <div class="container">
+      <div class="product">
+         <img class="bb" src="Downloads/wall (72).jpg">
+        <h3>wallpaper 72</h3>
+        <button>Download </button>  
+     </div>
+    </div>
+
+
+
+
+    
+
+
+
+
+
+    <div class="container">
+      <div class="product">
+         <img class="bb" src="Downloads/wall (73).jpg">
+        <h3>wallpaper 73</h3>
+        <button>Download </button>  
+     </div>
+    </div>
+
+
+
+    <div class="container">
+      <div class="product">
+         <img class="bb" src="Downloads/wall (74).jpg">
+        <h3>wallpaper 74</h3>
+        <button>Download </button>  
+     </div>
+    </div>
+
+
+
+
+
+
+
+    
+    <div class="container">
+      <div class="product">
+         <img class="bb" src="Downloads/wall (75).jpg">
+        <h3>wallpaper 75</h3>
+        <button>Download </button>  
+     </div>
+    </div>
+
+
+
+    <div class="container">
+      <div class="product">
+         <img class="bb" src="Downloads/wall (76).jpg">
+        <h3>wallpaper 76</h3>
+        <button>Download </button>  
+     </div>
+    </div>
+
+
+
+
+
+
+
+    <div class="container">
+      <div class="product">
+         <img class="bb" src="Downloads/wall (77).jpg">
+        <h3>wallpaper 77</h3>
+        <button>Download </button>  
+     </div>
+    </div>
+
+
+
+    <div class="container">
+      <div class="product">
+         <img class="bb" src="Downloads/wall (78).jpg">
+        <h3>wallpaper 78</h3>
+        <button>Download </button>  
+     </div>
+    </div>
+
+
+
+
+    <div class="container">
+      <div class="product">
+         <img class="bb" src="Downloads/wall (79).jpg">
+        <h3>wallpaper 79</h3>
+        <button>Download </button>  
+     </div>
+    </div>
+
+
+
+
+
+    <div class="container">
+      <div class="product">
+         <img class="bb" src="Downloads/wall (80).jpg">
+        <h3>wallpaper 80</h3>
+        <button>Download </button>  
+     </div>
+    </div>
+
+
+
+
+
+
+    <div class="container">
+      <div class="product">
+         <img class="bb" src="Download/wall (81).jpg">
+        <h3>wallpaper 81</h3>
+        <button>Download </button>  
+     </div>
+    </div>
+
+
+
+
+    <div class="container">
+      <div class="product">
+         <img class="bb" src="Download/wall (82).jpg">
+        <h3>wallpaper 82</h3>
+        <button>Download </button>  
+     </div>
+    </div>
+
+
+
+
+
+
+    <div class="container">
+      <div class="product">
+         <img class="bb" src="Download/wall (83).jpg">
+        <h3>wallpaper 83</h3>
+        <button>Download </button>  
+     </div>
+    </div>
+
+
+
+
+    <div class="container">
+      <div class="product">
+         <img class="bb" src="Download/wall (84).jpg">
+        <h3>wallpaper 84</h3>
+        <button>Download </button>  
+     </div>
+    </div>
+
+
+
+
+
+
+    <div class="container">
+      <div class="product">
+         <img class="bb" src="Download/as (1).jpg ">
+        <h3>wallpaper 85</h3>
+        <button>Download </button>  
+     </div>
+    </div>
+
+
+
+
+    <div class="container">
+      <div class="product">
+         <img class="bb" src="Download/wall (86).jpg">
+        <h3>wallpaper 86</h3>
+        <button>Download </button>  
+     </div>
+    </div>
+
+
+
+
+
+
+    <div class="container">
+      <div class="product">
+         <img class="bb" src="Download/as (2).jpg">
+        <h3>wallpaper 87</h3>
+        <button>Download </button>  
+     </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+    
+    <div class="container">
+      <div class="product">
+         <img class="bb" src="Download/as (3).jpg">
+        <h3>wallpaper 88</h3>
+        <button>Download </button>  
+     </div>
+    </div>
+
+
+
+    
+    <div class="container">
+      <div class="product">
+         <img class="bb" src="Download/as (4).jpg">
+        <h3>wallpaper 89</h3>
+        <button>Download </button>  
+     </div>
+    </div>
+
+
+
+
+
+
+    
+    <div class="container">
+      <div class="product">
+         <img class="bb" src="Download/as (5).jpg">
+        <h3>wallpaper 90</h3>
+        <button>Download </button>  
+     </div>
+    </div>
+
+
+
+
+
+
+    
+    <div class="container">
+      <div class="product">
+         <img class="bb" src="Download/as (6).jpg">
+        <h3>wallpaper 91</h3>
+        <button>Download </button>  
+     </div>
+    </div>
+
+
+
+
+
+    
+    <div class="container">
+      <div class="product">
+         <img class="bb" src="Download/as (7).jpg">
+        <h3>wallpaper 92</h3>
+        <button>Download </button>  
+     </div>
+    </div>
+
+
+
+
+
+    
+    <div class="container">
+      <div class="product">
+         <img class="bb" src="Download/as (8).jpg">
+        <h3>wallpaper 93</h3>
+        <button>Download </button>  
+     </div>
+    </div>
+
+
+
+
+    <div class="container">
+      <div class="product">
+         <img class="bb" src="Download/as (9).jpg">
+        <h3>wallpaper 94</h3>
+        <button>Download </button>  
+     </div>
+    </div>
+
+
+
+
+
+    <div class="container">
+      <div class="product">
+         <img class="bb" src="Download/as (10).jpg">
+        <h3>wallpaper 95</h3>
+        <button>Download </button>  
+     </div>
+    </div>
+
+
+
+
+    <div class="container">
+      <div class="product">
+         <img class="bb" src="Download/as (11).jpg">
+        <h3>wallpaper 96</h3>
+        <button>Download </button>  
+     </div>
+    </div>
+
+
+
+    <div class="container">
+      <div class="product">
+         <img class="bb" src="Download/as (12).jpg">
+        <h3>wallpaper 97</h3>
+        <button>Download </button>  
+     </div>
+    </div>
+
+
+
+    <div class="container">
+      <div class="product">
+         <img class="bb" src="Download/as (13).jpg">
+        <h3>wallpaper 98</h3>
+        <button>Download </button>  
+     </div>
+    </div>
+
+
+
+
+
+    <div class="container">
+      <div class="product">
+         <img class="bb" src="Download/as (14).jpg">
+        <h3>wallpaper 99</h3>
+        <button>Download </button>  
+     </div>
+    </div>
+
+
+
+
+
+    <div class="container">
+      <div class="product">
+         <img class="bb" src="Download/as (15).jpg">
+        <h3>wallpaper 101</h3>
+        <button>Download </button>  
+     </div>
+    </div>
+
+
+
+
+    
+    <div class="container">
+      <div class="product">
+         <img class="bb" src="Download/as (16).jpg">
+        <h3>wallpaper 102</h3>
+        <button>Download </button>  
+     </div>
+    </div>
+
+
+
+
+
+    
+    <div class="container">
+      <div class="product">
+         <img class="bb" src="Download/as (17).jpg">
+        <h3>wallpaper 103</h3>
+        <button>Download </button>  
+     </div>
+    </div>
+
+
+
+    
+    <div class="container">
+      <div class="product">
+         <img class="bb" src="Download/as (18).jpg">
+        <h3>wallpaper 104</h3>
+        <button>Download </button>  
+     </div>
+    </div>
+
+
+
+
+    
+    <div class="container">
+      <div class="product">
+         <img class="bb" src="Download/as (19).jpg">
+        <h3>wallpaper 105</h3>
+        <button>Download </button>  
+     </div>
+    </div>
+
+
+
+    
+    <div class="container">
+      <div class="product">
+         <img class="bb" src="Download/as (20).jpg">
+        <h3>wallpaper 106</h3>
+        <button>Download </button>  
+     </div>
+    </div>
+
+
+
+    
+    <div class="container">
+      <div class="product">
+         <img class="bb" src="Download/as (21).jpg">
+        <h3>wallpaper 107</h3>
+        <button>Download </button>  
+     </div>
+    </div>
+
+
+
+    
+    <div class="container">
+      <div class="product">
+         <img class="bb" src="Download/as (22).jpg">
+        <h3>wallpaper 108</h3>
+        <button>Download </button>  
+     </div>
+    </div>
+
+
+
+    
+    <div class="container">
+      <div class="product">
+         <img class="bb" src="Download/as (23).jpg">
+        <h3>wallpaper 109</h3>
+        <button>Download </button>  
+     </div>
+    </div>
+
+
+
+    
+    <div class="container">
+      <div class="product">
+         <img class="bb" src="Download/as (25).jpg">
+        <h3>wallpaper 110</h3>
+        <button>Download </button>  
+     </div>
+    </div>
+
+
+
+    
+    <div class="container">
+      <div class="product">
+         <img class="bb" src="Download/as (26).jpg">
+        <h3>wallpaper 112</h3>
+        <button>Download </button>  
+     </div>
+    </div>
+
+
+    <div class="container">
+      <div class="product">
+         <img class="bb" src="Download/as (27).jpg">
+        <h3>wallpaper 113</h3>
+        <button>Download </button>  
+     </div>
+    </div>
+
+
+
+    <div class="container">
+      <div class="product">
+         <img class="bb" src="Download/as (28).jpg">
+        <h3>wallpaper 114</h3>
+        <button>Download </button>  
+     </div>
+    </div>
+
+
+
+
+
+    <div class="container">
+      <div class="product">
+         <img class="bb" src="Download/as (29).jpg">
+        <h3>wallpaper 115</h3>
+        <button>Download </button>  
+     </div>
+    </div>
+
+
+
+
+    <div class="container">
+      <div class="product">
+         <img class="bb" src="Download/as (30).jpg">
+        <h3>wallpaper 116</h3>
+        <button>Download </button>  
+     </div>
+    </div>
+
+
+
+
+
+    <div class="container">
+      <div class="product">
+         <img class="bb" src="Download/as (31).jpg">
+        <h3>wallpaper 117</h3>
+        <button>Download </button>  
+     </div>
+    </div>
+
+
+    <div class="container">
+      <div class="product">
+         <img class="bb" src="Download/as (32).jpg">
+        <h3>wallpaper 118</h3>
+        <button>Download </button>  
+     </div>
+    </div>
+
+
+
+
+    <div class="container">
+      <div class="product">
+         <img class="bb" src="Download/as (33).jpg">
+        <h3>wallpaper 119</h3>
+        <button>Download </button>  
+     </div>
+    </div>
+
+
+
+
+    <div class="container">
+      <div class="product">
+         <img class="bb" src="Download/as (34).jpg">
+        <h3>wallpaper 120</h3>
+        <button>Download </button>  
+     </div>
+    </div>
+
+
+
+
+    <div class="container">
+      <div class="product">
+         <img class="bb" src="Download/as (35).jpg">
+        <h3>wallpaper 121</h3>
+        <button>Download </button>  
+     </div>
+    </div>
+
+
+
+
+    <div class="container">
+      <div class="product">
+         <img class="bb" src="Download/as (36).jpg">
+        <h3>wallpaper 122</h3>
+        <button>Download </button>  
+     </div>
+    </div>
+
+
+
+
+    <div class="container">
+      <div class="product">
+         <img class="bb" src="Download/as (37).jpg">
+        <h3>wallpaper 123</h3>
+        <button>Download </button>  
+     </div>
+    </div>
+
+
+
+    
+    <div class="container">
+      <div class="product">
+         <img class="bb" src="Download/as (38).jpg">
+        <h3>wallpaper 124</h3>
+        <button>Download </button>  
+     </div>
+    </div>
+
+
+
+
+
+
+    
+    <div class="container">
+      <div class="product">
+         <img class="bb" src="Download/as (39).jpg">
+        <h3>wallpaper 125</h3>
+        <button>Download </button>  
+     </div>
+    </div>
+
+
+
+
+
+    
+    <div class="container">
+      <div class="product">
+         <img class="bb" src="Download/as (40).jpg">
+        <h3>wallpaper 126</h3>
+        <button>Download </button>  
+     </div>
+    </div>
+
+
+
+
+
+    <div class="container">
+      <div class="product">
+         <img class="bb" src="Download/as (41).jpg">
+        <h3>wallpaper 127</h3>
+        <button>Download </button>  
+     </div>
+    </div>
+
+
+
+
+    
+    <div class="container">
+      <div class="product">
+         <img class="bb" src="Download/as (42).jpg">
+        <h3>wallpaper 128</h3>
+        <button>Download </button>  
+     </div>
+    </div>
+
+
+    
+    <div class="container">
+      <div class="product">
+         <img class="bb" src="Download/as (43).jpg">
+        <h3>wallpaper 129</h3>
+        <button>Download </button>  
+     </div>
+    </div>
+
+
+
+
+    <div class="container">
+      <div class="product">
+         <img class="bb" src="Download/as (44).jpg">
+        <h3>wallpaper 130</h3>
+        <button>Download </button>  
+     </div>
+    </div>
+
+
+
+    <div class="container">
+      <div class="product">
+         <img class="bb" src="Download/as (45).jpg">
+        <h3>wallpaper 131</h3>
+        <button>Download </button>  
+     </div>
+    </div>
+
+
+
+
+
+    <div class="container">
+      <div class="product">
+         <img class="bb" src="Download/as (46).jpg">
+        <h3>wallpaper 132</h3>
+        <button>Download </button>  
+     </div>
+    </div>
+
+
+
+    <div class="container">
+      <div class="product">
+         <img class="bb" src="Download/as (47).jpg">
+        <h3>wallpaper 133</h3>
+        <button>Download </button>  
+     </div>
+    </div>
+
+
+
+
+    <div class="container">
+      <div class="product">
+         <img class="bb" src="Download/as (48).jpg">
+        <h3>wallpaper 134</h3>
+        <button>Download </button>  
+     </div>
+    </div>
+
+
+    <div class="container">
+      <div class="product">
+         <img class="bb" src="Download/as (49).jpg">
+        <h3>wallpaper 135</h3>
+        <button>Download </button>  
+     </div>
+    </div>
+
+
+
+
+    <div class="container">
+      <div class="product">
+         <img class="bb" src="Download/as (50).jpg">
+        <h3>wallpaper 136</h3>
+        <button>Download </button>  
+     </div>
+    </div>
+
+
+
+
+
+<div class="container">
+      <div class="product">
+         <img class="bb" src="Download/as (51).jpg">
+        <h3>wallpaper 137</h3>
+        <button>Download </button>  
+     </div>
+    </div>
+
+
+    <div class="container">
+      <div class="product">
+         <img class="bb" src="Download/as (52).jpg">
+        <h3>wallpaper 138</h3>
+        <button>Download </button>  
+     </div>
+    </div>
+
+
+
+    <div class="container">
+      <div class="product">
+         <img class="bb" src="Download/as (53).jpg">
+        <h3>wallpaper 139</h3>
+        <button>Download </button>  
+     </div>
+    </div>
+
+
+    <div class="container">
+      <div class="product">
+         <img class="bb" src="Download/as (54).jpg">
+        <h3>wallpaper 140</h3>
+        <button>Download </button>  
+     </div>
+    </div>
+
+
+
+
+    <div class="container">
+      <div class="product">
+         <img class="bb" src="Download/as (55).jpg">
+        <h3>wallpaper 141</h3>
+        <button>Download </button>  
+     </div>
+    </div>
+
+
+
+
+
+    <div class="container">
+      <div class="product">
+         <img class="bb" src="Download/as (56).jpg">
+        <h3>wallpaper 142</h3>
+        <button>Download </button>  
+     </div>
+    </div>
+
+
+
+    
+    <div class="container">
+      <div class="product">
+         <img class="bb" src="Download/as (57).jpg">
+        <h3>wallpaper 142</h3>
+        <button>Download </button>  
+     </div>
+    </div>
+
+
+    
+    <div class="container">
+      <div class="product">
+         <img class="bb" src="Download/as (58).jpg">
+        <h3>wallpaper 143</h3>
+        <button>Download </button>  
+     </div>
+    </div>
+
+
+
+
+
+
+    <div class="container">
+      <div class="product">
+         <img class="bb" src="Download/as (59).jpg">
+        <h3>wallpaper 144</h3>
+        <button>Download </button>  
+     </div>
+    </div>
+
+
+
+    <div class="container">
+      <div class="product">
+         <img class="bb" src="Download/as (60).jpg">
+        <h3>wallpaper 145</h3>
+        <button>Download </button>  
+     </div>
+    </div>
+
+
+
+    <div class="container">
+      <div class="product">
+         <img class="bb" src="Download/as (61).jpg">
+        <h3>wallpaper 146</h3>
+        <button>Download </button>  
+     </div>
+    </div>
+
+
+
+
+
+    <div class="container">
+      <div class="product">
+         <img class="bb" src="Download/as (62).jpg">
+        <h3>wallpaper 147</h3>
+        <button>Download </button>  
+     </div>
+    </div>
+
+
+
+
+    <div class="container">
+      <div class="product">
+         <img class="bb" src="Download/as (63).jpg">
+        <h3>wallpaper 148</h3>
+        <button>Download </button>  
+     </div>
+    </div>
+
+
+
+
+
+
+    <div class="container">
+      <div class="product">
+         <img class="bb" src="Download/as (64).jpg">
+        <h3>wallpaper 149</h3>
+        <button>Download </button>  
+     </div>
+    </div>
+
+
+
+
+    <div class="container">
+      <div class="product">
+         <img class="bb" src="Download/as (65).jpg">
+        <h3>wallpaper 150</h3>
+        <button>Download </button>  
+     </div>
+    </div>
+
+
+
+
+    <div class="container">
+      <div class="product">
+         <img class="bb" src="Download/as (66).jpg">
+        <h3>wallpaper 151</h3>
+        <button>Download </button>  
+     </div>
+    </div>
+
+
+
+
+    <div class="container">
+      <div class="product">
+         <img class="bb" src="Download/as (67).jpg">
+        <h3>wallpaper 152</h3>
+        <button>Download </button>  
+     </div>
+    </div>
+
+
+
+
+
+
+    <div class="container">
+      <div class="product">
+         <img class="bb" src="Download/as (68).jpg">
+        <h3>wallpaper 153</h3>
+        <button>Download </button>  
+     </div>
+    </div>
+
+
+
+
+
+    <div class="container">
+      <div class="product">
+         <img class="bb" src="Download/as (69).jpg">
+        <h3>wallpaper 154</h3>
+        <button>Download </button>  
+     </div>
+    </div>
+
+
+
+
+    <div class="container">
+      <div class="product">
+         <img class="bb" src="Download/as (70).jpg">
+        <h3>wallpaper 155</h3>
+        <button>Download </button>  
+     </div>
+    </div>
+
+
+
+    <div class="container">
+      <div class="product">
+         <img class="bb" src="Download/as (71).jpg">
+        <h3>wallpaper 156</h3>
+        <button>Download </button>  
+     </div>
+    </div>
+
+
+
+    <div class="container">
+      <div class="product">
+         <img class="bb" src="Download/as (72).jpg">
+        <h3>wallpaper 157</h3>
+        <button>Download </button>  
+     </div>
+    </div>
+
+
+    <div class="container">
+      <div class="product">
+         <img class="bb" src="Download/as (73).jpg">
+        <h3>wallpaper 158</h3>
+        <button>Download </button>  
+     </div>
+    </div>
+
+
+
+
+    <div class="container">
+      <div class="product">
+         <img class="bb" src="Download/as (74).jpg">
+        <h3>wallpaper 159</h3>
+        <button>Download </button>  
+     </div>
+    </div>
+
+
+
+    <div class="container">
+      <div class="product">
+         <img class="bb" src="Download/as (75).jpg">
+        <h3>wallpaper 160</h3>
+        <button>Download </button>  
+     </div>
+    </div>
+
+
+
+    <div class="container">
+      <div class="product">
+         <img class="bb" src="Download/as (76).jpg">
+        <h3>wallpaper 161</h3>
+        <button>Download </button>  
+     </div>
+    </div>
+
+
+
+    <div class="container">
+      <div class="product">
+         <img class="bb" src="Download/as (77).jpg">
+        <h3>wallpaper 162</h3>
+        <button>Download </button>  
+     </div>
+    </div>
+
+
+
+
+    <div class="container">
+      <div class="product">
+         <img class="bb" src="Download/as (78).jpg">
+        <h3>wallpaper 163</h3>
+        <button>Download </button>  
+     </div>
+    </div>
+
+
+
+
+    <div class="container">
+      <div class="product">
+         <img class="bb" src="Download/as (79).jpg">
+        <h3>wallpaper 164</h3>
+        <button>Download </button>  
+     </div>
+    </div>
+
+
+
+
+
+
+    <div class="container">
+      <div class="product">
+         <img class="bb" src="Download/as (80).jpg">
+        <h3>wallpaper 165</h3>
+        <button>Download </button>  
+     </div>
+    </div>
+
+
+
+
+
+
+    <div class="container">
+      <div class="product">
+         <img class="bb" src="Download/as (81).jpg">
+        <h3>wallpaper 166</h3>
+        <button>Download </button>  
+     </div>
+    </div>
+
+
+
+
+    <div class="container">
+      <div class="product">
+         <img class="bb" src="Download/as (82).jpg">
+        <h3>wallpaper 167</h3>
+        <button>Download </button>  
+     </div>
+    </div>
+
+
+
+
+
+    <div class="container">
+      <div class="product">
+         <img class="bb" src="Download/as (83).jpg">
+        <h3>wallpaper 168</h3>
+        <button>Download </button>  
+     </div>
+    </div>
+
+
+
+    <div class="container">
+      <div class="product">
+         <img class="bb" src="Download/as (84).jpg">
+        <h3>wallpaper 169</h3>
+        <button>Download </button>  
+     </div>
+    </div>
+
+
+
+
+
+    <div class="container">
+      <div class="product">
+         <img class="bb" src="Download/as (85).jpg">
+        <h3>wallpaper 170</h3>
+        <button>Download </button>  
+     </div>
+    </div>
+
+
+
+    <div class="container">
+      <div class="product">
+         <img class="bb" src="Download/as (86).jpg">
+        <h3>wallpaper 171</h3>
+        <button>Download </button>  
+     </div>
+    </div>
+
+    
+    <div class="container">
+      <div class="product">
+         <img class="bb" src="Download/as (87).jpg">
+        <h3>wallpaper 172</h3>
+        <button>Download </button>  
+     </div>
+    </div>
+
+
+
+
+    <div class="container">
+      <div class="product">
+         <img class="bb" src="Download/as (88).jpg">
+        <h3>wallpaper 173</h3>
+        <button id="downloadBtn">Download Image</button>
+        <img id="imageToDownload" src="Download/as (88).jpg" alt="Image to download" style="display:none;">
+
+     </div>
+    </div>
+
+
+
+
+
+    <div class="container">
+      <div class="product">
+         <img  class="bb" id="downloadBtn" src="Download/as (89).jpg" alt="Image to download" >
+        <h3>wallpaper 174</h3>
+        <button id="downloadBtn">Download Image</button>
+       
+     </div>
+    </div>
+
+
+
+
+
+
+    <script>
+   document.getElementById('downloadBtn').addEventListener('click', function() {
+   // Get the image element
+   let img = document.getElementById('imageToDownload');
+   
+   // Create a temporary link element
+   const link = document.createElement('a');
+   link.href = img.src;
+
+   // Set the download attribute with a filename
+   link.download = 'Download/as (9).jpg';
+
+   // Trigger the download by clicking the link programmatically
+   document.body.appendChild(link);
+   link.click();
+
+   // Remove the temporary link from the document
+   document.body.removeChild(link);
+});
+
+
+
+
+</script>
+
+</body>
+
+
+
+
